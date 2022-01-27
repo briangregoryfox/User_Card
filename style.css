@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 1000px;
+    margin: 5px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.UserCard {
+    width: 100%;
+    background-color: #fff;
+    border: 2px solid #999;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    overflow: hidden;
+}
+.CardHeader {
+    background-color: turquoise;
+    height: 120px;
+    margin-bottom: 70px;
+}
+.CardBody h1,
+.CardBody h2,
+.CardBody h3,
+.CardBody p {
+    margin: 15px;
+}
+.avatar {
+    height: 160px;
+    margin-top: 5px;
+    margin-left: 20px;
+    padding: 5px;
+    background-color: thistle;
+    border-radius: 50%;
+}
+.icon-s {
+    height: 20px;
+}
